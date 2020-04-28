@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".vpinspectionStartStopPage">
+
+    <Button
+        android:id="@+id/stopbutton"
+        android:layout_width="133dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="164dp"
+        android:layout_marginEnd="36dp"
+        android:background="@android:color/holo_red_dark"
+        android:text="durdur"
+        android:textColor="@android:color/background_light"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lweektxt" />
+
+    <Button
+        android:id="@+id/startbutton"
+        android:layout_width="146dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="164dp"
+        android:background="@android:color/holo_green_light"
+        android:text="başlat"
+        android:textColor="@android:color/background_light"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lweektxt" />
+
+    <TextView
+        android:id="@+id/lweektxt"
+        android:layout_width="198dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:text="Haftası"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lnametxt" />
+
+    <TextView
+        android:id="@+id/lnametxt"
+        android:layout_width="206dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="96dp"
+        android:text="Ders Adı"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ttt"
+        android:layout_width="366dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="52dp"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lweektxt" />
+
+    <ProgressBar
+        android:id="@+id/progressBar6"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/inspectionlist"
+        android:layout_width="308dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="64dp"
+        android:text="Yoklama Listesine Git"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/stopbutton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

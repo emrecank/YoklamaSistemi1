@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">YoklamaSistemi1</string>
+    <string name="title_activity_main_page">mainPage</string>
+    <string name="tab_text_1">YOKLAMA</string>
+    <string name="tab_text_2">DEVAMSIZLIKLARIM</string>
+    <string name="vptab_text_1">YOKLAMA</string>
+    <string name="vptab_text_2">DERS LİSTELERİ</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_vpmain_page">vpmainPage</string>
+</resources>

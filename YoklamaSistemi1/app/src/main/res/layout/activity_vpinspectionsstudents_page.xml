@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".vpinspectionsStudentsPage">
+
+    <Button
+        android:id="@+id/againinspection"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="289dp"
+        android:layout_marginTop="23dp"
+        android:background="@android:color/holo_orange_light"
+        android:text="Tekrar Yoklama Al"
+        android:textColor="@android:color/background_light" />
+
+    <Button
+        android:id="@+id/yoklamaminus"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="155dp"
+        android:layout_marginTop="23dp"
+        android:background="@color/cardview_light_background"
+        android:text="Yoklamaya Katılmayanlar" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
+    <ListView
+        android:id="@+id/inspectionsstudentslistview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="100dp" >
+
+    </ListView>
+
+    <Button
+        android:id="@+id/yoklamaplus"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="23dp"
+        android:background="@android:color/holo_green_light"
+        android:text="Yoklamaya Katılanlar"
+        android:textColor="@android:color/background_light" />
+</RelativeLayout>
